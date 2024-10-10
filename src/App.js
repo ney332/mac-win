@@ -6,10 +6,23 @@ function App() {
   const [email, setEmail] = useState("")
   const [senha, setSenha] = useState("")
 
-  return(
-    <form onSubmit={funcao}>
-      
+  function tiao(){
+    alert("tiao said hi ")
 
+
+  }
+
+  return(
+    <form onSubmit={tiao}>
+      <input type='email'
+      value={email}
+      onChange={ (e) => setEmail(e.target.value)}/>
+
+      <input type='senha'
+      value={senha}
+      onChange={ (e) => setSenha(e.target.value)}/>
+
+    <button>aperta</button>
     </form>
   );
 }
