@@ -2,42 +2,45 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
-function App() {
+function App(e) {
   const [email, setEmail] = useState("")
-  const [senha, setSenha] = useState("")
+  const [nome, setNome] = useState("")
   const [dados, setDados] = useState({})
 
-  function tiao(){
-    setDados({
-      nome: tiao,
-      emmail: {email}
+  function tiao(e){
+    e.preventDefault()
+   setDados({
+      nome: nome,
+      email: email
 
-    })
+    });
 
 
-  }
+  };
 
   return(
     <form onSubmit={tiao}>
-      <input type='email'
+      <input type="email"
       value={email}
       onChange={ (e) => setEmail(e.target.value)}/>
 
-      <input type='senha'
-      value={senha}
-      onChange={ (e) => setSenha(e.target.value)}/>
+      <input type="text"
+      value={nome}
+      onChange={ (e) => setNome(e.target.value)}/>
 
     <button>aperta</button>
 
     <div>
-      <p>nome do caba {dados.nome}</p>
-        <p>email do caba {dados.email}</p>
+      <label>nome do caba {dados.nome}</label>
+        <label>email do caba {dados.email}</label>
     </div>
+    
     </form>
 
   );
   
 }
+
 
 export default App;
 //commit 10/10/2024
