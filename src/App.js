@@ -5,9 +5,14 @@ import { useState } from 'react';
 function App() {
   const [email, setEmail] = useState("")
   const [senha, setSenha] = useState("")
+  const [dados, setDados] = useState({})
 
   function tiao(){
-    alert("tiao said hi ")
+    setDados({
+      nome: tiao,
+      emmail: {email}
+
+    })
 
 
   }
@@ -23,8 +28,15 @@ function App() {
       onChange={ (e) => setSenha(e.target.value)}/>
 
     <button>aperta</button>
+
+    <div>
+      <p>nome do caba {dados.nome}</p>
+        <p>email do caba {dados.email}</p>
+    </div>
     </form>
+
   );
+  
 }
 
 export default App;
