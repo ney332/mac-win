@@ -1,0 +1,231 @@
+
+/
+    /* Estilos específicos para telas menores exemplo: 600 pixels de largur
+html {
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+background: #213348;
+}
+.login-box{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 400px;
+padding: 40px;
+transform: translate(-50%,-50%);
+background: rgba(6, 6, 6, 0.467);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgb(1, 1, 24);
+border-radius: 10px;
+}
+.login-box h2{
+margin: 0 0 15px;
+padding: 0;
+color: #fff;
+text-align: center;
+}
+.login-box .user-box{
+position: relative;
+animation: reverse;
+}
+.login-box .user-box input{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+color: #fff;
+margin-bottom: 30px;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent;
+}
+.login-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.login-box .use-box input:focus˜label 
+.login-box .user-box input:valid˜label 
+{
+top: -20px;
+left: 0;
+color: #03e9f4;
+font-size: 12px;
+}
+.login-box form a 
+{
+    position: relative;
+    display: inline-block ;
+    padding: 10px 10px;
+    color: #def0f0;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+
+}
+.login-box a:hover 
+{
+  animation: linear infinite;
+    background-color: #154e69;
+    color: #f9f6f6;
+    border-radius: 10px;
+    box-shadow: 9 9 89px #253a90
+    0 0 25px #c5c71b
+    0 0 50px #c8b016
+    0 0 100px #d2be0f
+    ;
+  animation-delay: 5s;}
+.login-box a span {
+    position: absolute;
+display: block;
+}
+.login-box a span:nth-child(1)
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, text);
+    animation: btn-anim1 1s linear infinite ;
+}
+@keyframes btn-anim1 {
+  0%{
+    left: -100%;
+  }
+50%, 
+100%{
+  left: 100%;
+
+}
+}
+.login-box a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  background: linear-gradient(180deg);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s;
+}
+@keyframes btn-anim2{0%
+  {
+    top: -100%;
+  } 
+  50%,
+  100% { 
+    top: 100%;
+  }
+}
+.login-box a span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(27deg,23deg);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s;
+}
+@keyframes btn-anim3 
+{
+  0% {
+    right: -100%;
+  }
+  50%,
+  100%
+  {
+    right: 100%;
+  }
+}
+.menu{
+  left:80%;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .toggle
+{
+  position: relative;
+  width: 75px;
+  height: 75px;
+  background:#fff;
+  color:#d77d1c;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+align-items: center;
+font-size: 3em;
+cursor: pointer;
+transition: 0.5s;
+}
+</style>
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Login<h2>
+
+        <form>
+          <div class="user-box">
+            <input type="mail" name="" id="mail" value="">
+            <label></label>
+          </div>
+    
+          <div class="user-box">
+            <input type="password" name="" value="">
+            <label></label>
+    
+
+          
+            <a href="google.com">
+<span></span>  
+<span></span>
+<span></span>
+<span></span>
+submit
+</a>
+    </form>
+  </div>
+ </div>
+
+<ul class=" menu">
+<div class="toggle"><ion-icon name="add-outline"></ion-icon>
+</div>
+<li style="--i:0;"><a href="#"><ion-icon name="home-outline"></ion-icon>
+</a></li>
+<li style="--i:1;"><a href="#"><ion-icon name="person-outline"></ion-icon></a></li>
+<div class="indicator">
+
+</div>
+</ul>
+
+
+
+
+
+
+<script>
+  let g = "lorransilva"
+  let mail = document.getElementById(mail)
+  function login (){
+    if(mail == g ){
+      alert("voce entrou")
+
+    }
+
+  }
+</script>
+
+  </body>
+</html>
