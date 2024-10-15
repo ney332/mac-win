@@ -55,7 +55,6 @@ button {
   box-shadow: 3px 3px #fafafa;
   cursor: pointer;
   margin: 30px 0;
-  position: relative;
 }
 
 button:active {
@@ -81,7 +80,7 @@ left: 0;
 color: #03e9f4;
 font-size: 12px;
 }
-.login-box form button 
+.login-box form  
 {
   position: relative;
   display: inline-block ;
