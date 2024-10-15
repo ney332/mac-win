@@ -22,6 +22,7 @@ function App(e) {
 
   return(
     <form onSubmit={tiao} className='login-box'>
+      <h2>Login</h2>
       <input type="email"
       className='user-box'
       value={email}
