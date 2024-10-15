@@ -43,17 +43,7 @@ border-bottom: 1px solid #fff;
 outline: none;
 background: transparent;
 }
-button{
-  color: #03e9f4;
-}
-
-
-button:active {
-  box-shadow: none;
-  transform: translate(3px, 3px);
-}
-
-.login-box .user-box{
+.login-box .user-box label{
   position: absolute;
   top: 0;
   left: 0;
@@ -71,7 +61,7 @@ left: 0;
 color: #03e9f4;
 font-size: 12px;
 }
-.login-box form a
+.login-box form a 
 {
   position: relative;
   display: inline-block ;
