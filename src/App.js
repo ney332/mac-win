@@ -19,16 +19,18 @@ function App(e) {
   };
 
   return(
-    <form onSubmit={tiao}>
+    <form onSubmit={tiao} className='login-box'>
       <input type="email"
+      className='user-box'
       value={email}
       onChange={ (e) => setEmail(e.target.value)}/>
 
       <input type="text"
+      className='user-box'
       value={nome}
       onChange={ (e) => setNome(e.target.value)}/>
 
-    <button>aperta</button>
+    <button className='label'>aperta</button>
 
     <div>
       <label>nome do caba {dados.nome}</label>
@@ -36,6 +38,8 @@ function App(e) {
     </div>
     
     </form>
+
+   
 
   );
   
