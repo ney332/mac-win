@@ -26,12 +26,14 @@ function App(e) {
       <input type="email"
       className='user-box'
       value={email}
-      onChange={ (e) => setEmail(e.target.value)}/>
+      onChange={ (e) => setEmail(e.target.value)}
+      placeholder='email'/>
 
       <input type="text"
       className='user-box'
       value={nome}
-      onChange={ (e) => setNome(e.target.value)}/>
+      onChange={ (e) => setNome(e.target.value)}
+      placeholder='Nome'/>
 
     <button className='label'>aperta</button>
 
