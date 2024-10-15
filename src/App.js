@@ -35,7 +35,7 @@ function App(e) {
       onChange={ (e) => setNome(e.target.value)}
       placeholder='Nome'/>
 
-    <button className='label'>aperta</button>
+    <button className='label'><a>aperta</a></button>
 
     <div>
       <label>nome do caba {dados.nome}</label>
