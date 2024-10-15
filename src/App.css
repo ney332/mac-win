@@ -43,19 +43,10 @@ border-bottom: 1px solid #fff;
 outline: none;
 background: transparent;
 }
-/* From Uiverse.io by levxyca */ 
-button {
-  font-size: 1.5rem;
-  color: #fafafa;
-  text-transform: uppercase;
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: 2px solid #fafafa;
-  background: #252525;
-  box-shadow: 3px 3px #fafafa;
-  cursor: pointer;
-  margin: 35px 0;
+button{
+  color: #03e9f4;
 }
+
 
 button:active {
   box-shadow: none;
