@@ -17,8 +17,7 @@ function App(e) {
       email: email
 
     });
-  const banco = Arr 
-  banco.push([ {nome},{email}]);
+ 
 
   };
 
@@ -46,8 +45,8 @@ function App(e) {
 
   );
   
-}
-
+}const banco = Arr 
+  banco.push( {nome},{email});
 
 export default App;
 //commit 10/10/2024
