@@ -38,8 +38,8 @@ function App(e) {
     <button>aperta</button>
 
     <div>
-      <label>nome do caba {dados.nome}</label>
-        <label>email do caba {dados.email}</label>
+      <label> {dados.nome}</label>
+        <label> {dados.email}</label>
     </div>
     
     </form>
