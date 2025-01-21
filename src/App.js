@@ -8,6 +8,7 @@ function App(e) {
   const [email, setEmail] = useState("")
   const [nome, setNome] = useState("")
   const [dados, setDados] = useState({})
+  
 
   function tiao(e){
     e.preventDefault()
@@ -36,10 +37,10 @@ function App(e) {
       placeholder='Nome'/>
 
     <button>aperta</button>
+    
 
     <div>
-      <label> {dados.nome}</label>
-        <label> {dados.email}</label>
+      const bancodedados = [ {dados.nome},{dados.email}];
     </div>
     
     </form>
@@ -47,7 +48,8 @@ function App(e) {
    
 
   );
-  
+  const banco = Arr 
+  banco.push([ {nome},{email}])
 }
 
 
