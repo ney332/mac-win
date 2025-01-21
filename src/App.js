@@ -40,7 +40,7 @@ function App(e) {
     
 
     <div>
-      const bancodedados = [ {dados.nome},{dados.email}];
+     
     </div>
     
     </form>
