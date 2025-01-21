@@ -17,7 +17,8 @@ function App(e) {
       email: email
 
     });
-
+  const banco = Arr 
+  banco.push([ {nome},{email}]);
 
   };
 
@@ -38,18 +39,13 @@ function App(e) {
 
     <button>aperta</button>
     
-
-    <div>
-     
-    </div>
     
     </form>
 
    
 
   );
-  const banco = Arr 
-  banco.push([ {nome},{email}])
+  
 }
 
 
